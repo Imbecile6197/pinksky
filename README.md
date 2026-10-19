@@ -15,13 +15,21 @@
 - **Více účtů**, hesla aplikací v GNOME Klíčence.
 - Světlý i tmavý režim, **čeština a angličtina**.
 
-## Požadavky
-
-Linux x86_64 s **GTK 4.20+** a **libadwaita 1.8+**, například Fedora 44.
-
 ## Instalace
 
 Stáhněte si poslední vydání v sekci [Releases](../../releases).
+
+**Flatpak – Ubuntu, Debian, Linux Mint, Fedora a další distribuce:**
+
+```bash
+flatpak install --user ./pinksky-*.flatpak
+```
+
+Potřebné knihovny GNOME si flatpak stáhne sám z Flathubu. Na Ubuntu nejdřív nainstalujte flatpak:
+`sudo apt install flatpak` a přidejte Flathub:
+`flatpak remote-add --user --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo`.
+
+Balíčky RPM a archiv `.tar.gz` vyžadují **GTK 4.20+** a **libadwaita 1.8+** (Fedora 43+, Ubuntu 25.10+).
 
 **Fedora (RPM, systémová instalace):**
 
@@ -45,7 +53,7 @@ Pro přihlášení použijte **heslo aplikace**, ne hlavní heslo k účtu. Vytv
 
 ## English
 
-PinkSky is a native GNOME client for Bluesky with feeds, threads, direct messages, notifications, drafts, scheduled posts, multiple accounts and GNOME Shell search. It requires GTK 4.20+ and libadwaita 1.8+ (e.g. Fedora 44). Download the RPM or the `.tar.gz` archive from [Releases](../../releases) and sign in with an **app password**.
+PinkSky is a native GNOME client for Bluesky with feeds, threads, direct messages, notifications, drafts, scheduled posts, multiple accounts and GNOME Shell search. Download it from [Releases](../../releases): the **Flatpak** bundle works on Ubuntu, Debian, Mint, Fedora and most other distributions; the RPM and `.tar.gz` archive require GTK 4.20+ and libadwaita 1.8+. Sign in with an **app password**.
 
 ## Licence / License
 
