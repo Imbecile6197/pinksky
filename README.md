@@ -2,10 +2,15 @@
 
 <h1 align="center">PinkSky</h1>
 
-<p align="center">Nativní GNOME klient pro sociální síť Bluesky<br>
-<i>A native GNOME client for the Bluesky social network</i></p>
+<p align="center">Nativní GNOME klient pro Bluesky a Mastodon<br>
+<i>A native GNOME client for Bluesky and Mastodon</i></p>
 
 ## Funkce
+
+- **Bluesky i Mastodon:** účty obou sítí v jedné aplikaci, přepínání mezi nimi.
+  Mastodon s přihlášením k libovolné instanci, časovými osami Domů / Místní /
+  Federovaná, seznamy a sledovanými hashtagy.
+- **Crossposting:** jeden příspěvek najednou na víc účtů (Bluesky i Mastodon).
 
 - **Feedy:** Sledované, Discover a vlastní připnuté feedy, správa a objevování feedů, tlačítko „Nové příspěvky“.
 - **Příspěvky:** vlákna, profily, hledání s trendy, uložené příspěvky (záložky).
@@ -13,6 +18,7 @@
 - **Zprávy (DM)** a seskupená **oznámení**, i se zavřeným oknem.
 - **Ikona v horní liště** a hledání v přehledu GNOME.
 - **Více účtů**, hesla aplikací v GNOME Klíčence.
+- **Automatické aktualizace** z GitHubu jedním klikem.
 - Světlý i tmavý režim, **čeština a angličtina**.
 
 ## Instalace
@@ -49,11 +55,12 @@ Odinstalace: `./install.sh --uninstall`.
 
 ## Přihlášení
 
-Pro přihlášení použijte **heslo aplikace**, ne hlavní heslo k účtu. Vytvoříte ho v aplikaci Bluesky v *Nastavení → Soukromí a zabezpečení → Hesla aplikací*.
+- **Bluesky:** použijte **heslo aplikace**, ne hlavní heslo k účtu. Vytvoříte ho v aplikaci Bluesky v *Nastavení → Soukromí a zabezpečení → Hesla aplikací*.
+- **Mastodon:** zadejte svůj server (např. `mastodon.social`) a přihlaste se v prohlížeči.
 
 ## English
 
-PinkSky is a native GNOME client for Bluesky with feeds, threads, direct messages, notifications, drafts, scheduled posts, multiple accounts and GNOME Shell search. Download it from [Releases](../../releases): the **Flatpak** bundle works on Ubuntu, Debian, Mint, Fedora and most other distributions; the RPM and `.tar.gz` archive require GTK 4.20+ and libadwaita 1.8+. Sign in with an **app password**.
+PinkSky is a native GNOME client for Bluesky and Mastodon with crossposting between both networks, feeds, threads, direct messages, notifications, drafts, scheduled posts, multiple accounts, GNOME Shell search and automatic updates. Download it from [Releases](../../releases): the **Flatpak** bundle works on Ubuntu, Debian, Mint, Fedora and most other distributions; the RPM and `.tar.gz` archive require GTK 4.20+ and libadwaita 1.8+. Sign in to Bluesky with an **app password**, to Mastodon through your browser.
 
 ## Licence / License
 
