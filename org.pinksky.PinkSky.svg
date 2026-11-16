@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="upper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff8cc8"/>
+      <stop offset="1" stop-color="#f0469a"/>
+    </linearGradient>
+    <linearGradient id="lower" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e83d8f"/>
+      <stop offset="1" stop-color="#c41f70"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- růžový motýl bez rámečku -->
+  <g transform="translate(64 66) scale(1.12) translate(-64 -62)">
+    <!-- spodní křídla -->
+    <path d="M62 62 C50 64 34 68 28 79 C23 89 30 98 41 96 C51 94 58 82 62 70 Z" fill="url(#lower)"/>
+    <path d="M66 62 C78 64 94 68 100 79 C105 89 98 98 87 96 C77 94 70 82 66 70 Z" fill="url(#lower)"/>
+    <!-- horní křídla -->
+    <path d="M63 60 C58 47 47 33 33 29 C20 25 12 31 13 42 C14 54 23 63 38 65 C47 66 56 65 63 63 Z" fill="url(#upper)"/>
+    <path d="M65 60 C70 47 81 33 95 29 C108 25 116 31 115 42 C114 54 105 63 90 65 C81 66 72 65 65 63 Z" fill="url(#upper)"/>
+    <!-- lesk -->
+    <path d="M33 31 C22 28 16 33 17 42 C18 50 24 56 34 58 C30 50 30 40 33 31 Z" fill="url(#shine)"/>
+    <path d="M95 31 C106 28 112 33 111 42 C110 50 104 56 94 58 C98 50 98 40 95 31 Z" fill="url(#shine)"/>
+    <!-- tělo -->
+    <rect x="61.5" y="50" width="5" height="34" rx="2.5" fill="#a8195f"/>
+    <!-- tykadla -->
+    <path d="M62.5 51 C60 43 56 38 50 36" fill="none" stroke="#a8195f" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M65.5 51 C68 43 72 38 78 36" fill="none" stroke="#a8195f" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="50" cy="36" r="2.8" fill="#a8195f"/>
+    <circle cx="78" cy="36" r="2.8" fill="#a8195f"/>
+  </g>
+</svg>

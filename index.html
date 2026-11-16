@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PinkSky</title>
+<style>
+  :root { color-scheme: light dark; --accent: #e5488f; }
+  body { font: 16px/1.5 system-ui, sans-serif; max-width: 42rem; margin: 3rem auto; padding: 0 1rem; }
+  header { display: flex; align-items: center; gap: 1rem; }
+  header img { width: 64px; height: 64px; }
+  h1 { margin: 0; }
+  a.button { display: inline-block; background: var(--accent); color: #fff; padding: .6rem 1.2rem;
+             border-radius: 999px; text-decoration: none; font-weight: 600; }
+  pre { background: color-mix(in srgb, currentColor 8%, transparent); padding: .8rem; border-radius: 8px;
+        overflow-x: auto; }
+  .muted { opacity: .7; font-size: .9rem; }
+</style>
+</head>
+<body>
+<header>
+  <img src="org.pinksky.PinkSky.svg" alt="">
+  <div><h1>PinkSky</h1><div>Nativní GNOME klient pro Bluesky a Mastodon</div></div>
+</header>
+<h2>Instalace</h2>
+<p><a class="button" href="pinksky.flatpakref">Nainstalovat PinkSky</a></p>
+<p>Otevře se v aplikaci Software. Nebo v terminálu:</p>
+<pre>flatpak install --user https://imbecile6197.github.io/pinksky/pinksky.flatpakref</pre>
+<p>Aktualizace pak instaluje aplikace Software, příkaz <code>flatpak update</code>, nebo sám PinkSky.</p>
+<h2 lang="en">Installation</h2>
+<p lang="en">Click the button above to install with Software, or run the command in a terminal.
+Updates are installed by Software, by <code>flatpak update</code>, or by PinkSky itself.</p>
+<p class="muted">Vydání a licence: <a href="https://github.com/Imbecile6197/pinksky">github.com/Imbecile6197/pinksky</a></p>
+</body>
+</html>
